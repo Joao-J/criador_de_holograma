@@ -1,0 +1,16 @@
+C:\Users\ceepa\source\repos\criador de hologramas\criador de hologramas\bin\Debug\net8.0-windows\criador de hologramas.exe
+C:\Users\ceepa\source\repos\criador de hologramas\criador de hologramas\bin\Debug\net8.0-windows\criador de hologramas.deps.json
+C:\Users\ceepa\source\repos\criador de hologramas\criador de hologramas\bin\Debug\net8.0-windows\criador de hologramas.runtimeconfig.json
+C:\Users\ceepa\source\repos\criador de hologramas\criador de hologramas\bin\Debug\net8.0-windows\criador de hologramas.dll
+C:\Users\ceepa\source\repos\criador de hologramas\criador de hologramas\bin\Debug\net8.0-windows\criador de hologramas.pdb
+C:\Users\ceepa\source\repos\criador de hologramas\criador de hologramas\obj\Debug\net8.0-windows\criador_de_hologramas.Form1.resources
+C:\Users\ceepa\source\repos\criador de hologramas\criador de hologramas\obj\Debug\net8.0-windows\criador de hologramas.vbproj.GenerateResource.cache
+C:\Users\ceepa\source\repos\criador de hologramas\criador de hologramas\obj\Debug\net8.0-windows\criador de hologramas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ceepa\source\repos\criador de hologramas\criador de hologramas\obj\Debug\net8.0-windows\criador de hologramas.AssemblyInfoInputs.cache
+C:\Users\ceepa\source\repos\criador de hologramas\criador de hologramas\obj\Debug\net8.0-windows\criador de hologramas.AssemblyInfo.vb
+C:\Users\ceepa\source\repos\criador de hologramas\criador de hologramas\obj\Debug\net8.0-windows\criador de hologramas.vbproj.CoreCompileInputs.cache
+C:\Users\ceepa\source\repos\criador de hologramas\criador de hologramas\obj\Debug\net8.0-windows\criador de hologramas.dll
+C:\Users\ceepa\source\repos\criador de hologramas\criador de hologramas\obj\Debug\net8.0-windows\refint\criador de hologramas.dll
+C:\Users\ceepa\source\repos\criador de hologramas\criador de hologramas\obj\Debug\net8.0-windows\criador de hologramas.pdb
+C:\Users\ceepa\source\repos\criador de hologramas\criador de hologramas\obj\Debug\net8.0-windows\criador de hologramas.genruntimeconfig.cache
+C:\Users\ceepa\source\repos\criador de hologramas\criador de hologramas\obj\Debug\net8.0-windows\ref\criador de hologramas.dll

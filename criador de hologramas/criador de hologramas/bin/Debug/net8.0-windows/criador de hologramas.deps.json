@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "criador de hologramas/1.0.0": {
+        "runtime": {
+          "criador de hologramas.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "criador de hologramas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
