@@ -1,43 +1,127 @@
- - lines:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n - lines:
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&▉&f▉&f▉&f▉&f▉&▉&▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&▉&▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
+
 novo
  - lines:
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
-&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&4▉&4▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&4▉&4▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&4▉&4▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&4▉&4▉&4▉&4▉&4▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&4▉&4▉&4▉&f▉&f▉&f▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&4▉&4▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&4▉&4▉&f▉&f▉&f▉&f▉&4▉&4▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&4▉&4▉&f▉&f▉&f▉&f▉&4▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&4▉&4▉&f▉&f▉&f▉&f▉&4▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&4▉&4▉&f▉&f▉&f▉&f▉&4▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&4▉&4▉&f▉&f▉&f▉&f▉&4▉&f▉&f▉&f▉&f▉&f▉&4▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&4▉&4▉&f▉&f▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&4▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&4▉&4▉&4▉&f▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&4▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&4▉&4▉&4▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&4▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+novo
+ - lines:
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&a▉&a▉&f▉&a▉&a▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&a▉&a▉&f▉&a▉&a▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&a▉&a▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&a▉&a▉&f▉&f▉&f▉&f▉&f▉&a▉&a▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&a▉&a▉&f▉&f▉&f▉&f▉&f▉&a▉&a▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&a▉&a▉&f▉&f▉&f▉&f▉&f▉&f▉&a▉&a▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&a▉&a▉&f▉&f▉&f▉&f▉&f▉&f▉&a▉&a▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&a▉&a▉&f▉&f▉&f▉&f▉&f▉&a▉&a▉&a▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&a▉&a▉&f▉&f▉&f▉&a▉&a▉&a▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&a▉&a▉&a▉&a▉&a▉&a▉&a▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&a▉&a▉&a▉&a▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+novo
+ - lines:
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&4▉&4▉&4▉&4▉&4▉&4▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&4▉&4▉&f▉&f▉&f▉&4▉&4▉&4▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&4▉&4▉&4▉&f▉&f▉&f▉&f▉&4▉&4▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&4▉&4▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&4▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&4▉&4▉&4▉&4▉&4▉&4▉&4▉&f▉&f▉&f▉&4▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&4▉&4▉&4▉&f▉&f▉&4▉&4▉&4▉&4▉&4▉&4▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&4▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&f▉&4▉&4▉&4▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&4▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&4▉&4▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&4▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&4▉&4▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&4▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&f▉&4▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&4▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&4▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&4▉&4▉&f▉&f▉&4▉&4▉&f▉&f▉&f▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&4▉&4▉&4▉&f▉&4▉&4▉&4▉&f▉&f▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&4▉&4▉&4▉&4▉&4▉&4▉&4▉&4▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&4▉&4▉&4▉&4▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3
+  - content: '&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉&f▉'
+    height: 0.3

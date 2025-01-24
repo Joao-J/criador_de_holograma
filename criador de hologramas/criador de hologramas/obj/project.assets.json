@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ceepa\\.nuget\\packages\\": {}
+    "C:\\Users\\Tenata\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ceepa\\source\\repos\\criador de hologramas\\criador de hologramas\\criador de hologramas.vbproj",
+      "projectUniqueName": "C:\\Users\\Tenata\\Source\\Repos\\Joao-J\\criador_de_holograma\\criador de hologramas\\criador de hologramas\\criador de hologramas.vbproj",
       "projectName": "criador de hologramas",
-      "projectPath": "C:\\Users\\ceepa\\source\\repos\\criador de hologramas\\criador de hologramas\\criador de hologramas.vbproj",
-      "packagesPath": "C:\\Users\\ceepa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ceepa\\source\\repos\\criador de hologramas\\criador de hologramas\\obj\\",
+      "projectPath": "C:\\Users\\Tenata\\Source\\Repos\\Joao-J\\criador_de_holograma\\criador de hologramas\\criador de hologramas\\criador de hologramas.vbproj",
+      "packagesPath": "C:\\Users\\Tenata\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tenata\\Source\\Repos\\Joao-J\\criador_de_holograma\\criador de hologramas\\criador de hologramas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ceepa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tenata\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,7 +28,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -40,6 +40,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -64,7 +69,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

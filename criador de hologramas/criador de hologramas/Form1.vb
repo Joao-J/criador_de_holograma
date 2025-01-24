@@ -1,7 +1,8 @@
 ﻿Imports System.IO
+Imports Microsoft.VisualBasic.Devices
 
 Public Class Form1
-    Dim controles As List(Of Control)
+    Dim localizacao_arquivo = CurDir() & "/tenata/resultado.txt"
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim ndp As Integer = 1
 
@@ -25,32 +26,33 @@ Public Class Form1
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Dim texto As String = vbNewLine & "novo" & vbNewLine & " - lines:"
-        Dim linha As String = ""
-        Dim ndl As Integer = 1
+        Dim texto = vbNewLine & "novo" & vbNewLine & " - lines:"
+        Dim linha = ""
+        Dim ndl = 1
 
-        For i As Integer = 1 To 400
+        For i = 1 To 400
+            Dim nome = "pic" & i
             If ndl = 20 Then
                 ndl = 1
-                texto = texto & vbNewLine & linha
+                linha &= retornarcor(Controls.Find(nome, True)(0))
+                texto = texto & vbNewLine & "  - content: '" & linha & "'" & vbNewLine & "    height: 0.3"
                 linha = ""
             Else
-                Dim nome As String = "pic" & i
-                linha &= retornarcor(Me.Controls.Find(nome, True)(0))
+                linha &= retornarcor(Controls.Find(nome, True)(0))
                 ndl += 1
             End If
         Next
 
-        If File.Exists(CurDir() & "/tenata/resultado.txt") = True Then
-            IO.File.AppendAllText(CurDir() & "/tenata/resultado.txt", texto)
+        If File.Exists(localizacao_arquivo) = True Then
+            File.AppendAllText(localizacao_arquivo, texto)
         Else
-            If Not Path.Exists(CurDir() & "/tenata/") Then
-                MkDir(CurDir() & "/tenata/")
+            If Not Path.Exists(localizacao_arquivo) Then
+                MkDir(localizacao_arquivo)
             End If
-            File.Create(CurDir() & "/tenata/resultado.txt").Close()
-                IO.File.CreateText(CurDir() & "/tenata/resultado.txt").Close()
-                IO.File.AppendAllText(CurDir() & "/tenata/resultado.txt", texto)
-            End If
+            File.Create(localizacao_arquivo).Close()
+            File.CreateText(localizacao_arquivo).Close()
+            File.AppendAllText(localizacao_arquivo, texto)
+        End If
 
     End Sub
 
@@ -88,22 +90,30 @@ Public Class Form1
     End Function
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-
-        PictureBox1.Left = Cursor.Position.X - Me.Left - 15
-        PictureBox1.Top = Cursor.Position.Y - Me.Top - 40
-
+        PictureBox1.Left = MousePosition.X - Me.Left - 15
+        PictureBox1.Top = MousePosition.Y - Me.Top - 40
     End Sub
 
     Private Sub PictureBox1_MouseClick(sender As Object, e As MouseEventArgs) Handles PictureBox1.MouseClick
-        Try
+        pintar(e)
+    End Sub
 
+    Private Sub PictureBox1_MouseMove(sender As Object, e As MouseEventArgs) Handles PictureBox1.MouseMove
+        pintar(e)
+    End Sub
+
+    Public Sub pintar(e As MouseEventArgs)
+        Try
             For Each c As Control In Me.Controls
                 If c.Tag <> vbNullString Then
                     If PictureBox1.Bounds.IntersectsWith(c.Bounds) Then
                         If c.Tag.ToString.Contains("cor") Then
-                            PictureBox1.BackColor = c.BackColor
+                            If e.Button = MouseButtons.Left Then
+                                PictureBox1.BackColor = c.BackColor
+                            End If
+
                         Else
-                            If e.Button = MouseButtons.Right Then
+                                If e.Button = MouseButtons.Right Then
                                 c.BackColor = Color.White
                             ElseIf e.Button = MouseButtons.Left Then
                                 c.BackColor = PictureBox1.BackColor
@@ -117,5 +127,28 @@ Public Class Form1
         Catch ex As Exception
 
         End Try
+    End Sub
+
+    Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
+        If File.Exists(localizacao_arquivo) = True Then
+            Process.Start("notepad.exe", localizacao_arquivo)
+        Else
+            If Not Path.Exists(CurDir() & "/tenata/") Then
+                MkDir(CurDir() & "/tenata/")
+            End If
+            File.Create(CurDir() & "/tenata/resultado.txt").Close()
+            File.CreateText(CurDir() & "/tenata/resultado.txt").Close()
+        End If
+
+    End Sub
+
+    Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
+        If PictureBox1.Height >= 50 Then
+            PictureBox1.Height = 10
+            PictureBox1.Width = PictureBox1.Height
+        Else
+            PictureBox1.Height += 10
+            PictureBox1.Width = PictureBox1.Height
+        End If
     End Sub
 End Class

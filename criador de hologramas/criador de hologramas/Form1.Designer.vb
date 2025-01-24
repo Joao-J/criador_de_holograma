@@ -39,12 +39,14 @@ Partial Class Form1
         Button13 = New Button()
         PictureBox1 = New PictureBox()
         Timer1 = New Timer(components)
+        Button14 = New Button()
+        Button15 = New Button()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Button1
         ' 
-        Button1.Location = New Point(384, 500)
+        Button1.Location = New Point(384, 471)
         Button1.Name = "Button1"
         Button1.Size = New Size(75, 23)
         Button1.TabIndex = 0
@@ -197,12 +199,32 @@ Partial Class Form1
         Timer1.Enabled = True
         Timer1.Interval = 1
         ' 
+        ' Button14
+        ' 
+        Button14.Location = New Point(384, 500)
+        Button14.Name = "Button14"
+        Button14.Size = New Size(75, 23)
+        Button14.TabIndex = 14
+        Button14.Text = "abrir pasta"
+        Button14.UseVisualStyleBackColor = True
+        ' 
+        ' Button15
+        ' 
+        Button15.Location = New Point(384, 442)
+        Button15.Name = "Button15"
+        Button15.Size = New Size(75, 23)
+        Button15.TabIndex = 15
+        Button15.Text = "tamanho"
+        Button15.UseVisualStyleBackColor = True
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(128), CByte(128), CByte(255))
         ClientSize = New Size(466, 535)
+        Controls.Add(Button15)
+        Controls.Add(Button14)
         Controls.Add(Button1)
         Controls.Add(PictureBox1)
         Controls.Add(Button13)
@@ -239,5 +261,7 @@ Partial Class Form1
     Friend WithEvents Button13 As Button
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Timer1 As Timer
+    Friend WithEvents Button14 As Button
+    Friend WithEvents Button15 As Button
 
 End Class
