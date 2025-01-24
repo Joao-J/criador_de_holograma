@@ -58,6 +58,7 @@ Public Class Form1
 
     Public Function retornarcor(c As Control)
         Dim cor As String = ""
+        Dim caractere As String = "▉"
         Select Case c.BackColor
             Case Color.White
                 cor = "f"
@@ -83,10 +84,13 @@ Public Class Form1
                 cor = "3"
             Case Color.Black
                 cor = "0"
+            Case Me.BackColor
+                caractere = " "
+                cor = "f"
             Case Else
                 cor = "f"
         End Select
-        Return "&" & cor & "▉"
+        Return "&" & cor & caractere
     End Function
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
@@ -114,7 +118,7 @@ Public Class Form1
 
                         Else
                                 If e.Button = MouseButtons.Right Then
-                                c.BackColor = Color.White
+                                c.BackColor = Me.BackColor
                             ElseIf e.Button = MouseButtons.Left Then
                                 c.BackColor = PictureBox1.BackColor
                             End If
